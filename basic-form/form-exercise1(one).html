@@ -3,13 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Forms Exercise One - labels and more</title>
- <link rel="stylesheet"  href="css/form.css" />  
-
- 
- 
-
-
-   
+ <link rel="stylesheet"  href="css/form.css" />   
 <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -23,8 +17,11 @@
 
 <div id="formcol1">
  <h1>Proposal Form</h1>
+
+ <p>Fields with an asterisk(*) next to the label are required.</p>
+
  <fieldset>
-    <legend>Speaker Info</legend>legend>
+    <legend>Speaker Info</legend>
     <ul>
         <li>
             <label for="fstspkr1">*First Name:</label>
@@ -60,12 +57,12 @@
             <p>	
                 <span>
                     <input value="1" id="TypeofPres_lec" name="p-type" type="radio" />
-                    <label for="TypeofPres_lec">Lecture:</label>
+                    <label for="TypeofPres_lec">Lecture</label>
                 </span>
                 
                 <span>
                     <input value="2" id="TypeofPres_lab" name="p-type" type="radio"  />
-                    <label for="TypeofPres_lab">Lab:</label>	
+                    <label for="TypeofPres_lab">Lab</label>	
                 </span>
             </p>
     </fieldset>

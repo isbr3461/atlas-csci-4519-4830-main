@@ -46,8 +46,8 @@ div#formcol1 input {
 /* div for radio buttons and check boxes */
 
 #multchoice {
-	clear:left;
-	margin-left:1%;	
+	float:left;	
+	width: 100%;
 }
 
 #multchoice input, #multchoice span {
@@ -62,6 +62,15 @@ div#formcol1 input {
 	margin:2em 0;
 	float:right;
 	width:70%;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+	color: #FFF !important; 
+	background-color: #BB3D2F !important;
+}
+
+#formcol1 input.reqfield{
+	background:#FF9;
 }
 
 
