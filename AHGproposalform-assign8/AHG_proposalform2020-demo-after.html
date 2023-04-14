@@ -23,12 +23,11 @@
 </head>
 
 <body>    
-  <div id="content">   
-    <div id="formheader">
-      <h1 id="formstart">AHG Presenter Proposal Form 2020</h1>
-      <h2>Accessing Higher Ground: Accessible Web, Media and Technology Conference November 16 - 20, 2020</h2>
-    </div> 
-
+  <header>
+    <h1>AHG Presenter Proposal Form 2020</h1>
+    <h2>Accessing Higher Ground: Accessible Web, Media and Technology Conference November 16 - 20, 2020</h2>
+  </header> 
+  <main class role=”main”>   
     <form action="AHG_saveprop2020.php" method="post" id="AHGproposalform2020">
       <h3>Speaker Information</h3>
       <div id="speakerinfo">
@@ -70,7 +69,7 @@
             </ul>
           
             <div id="multchoice">
-              <h4>*Have you presented at a national conference or taught a college-level, semester-long course?</h4>
+              <p>*Have you presented at a national conference or taught a college-level, semester-long course?</p>
               <span>
                 <input value="1" id="natconfexp1_yes" name="natconfexp1" type="radio" class="reqfield" title="Required field, presented at a national conference or taught a college-level, semester-long course" />
                 <label for="natconfexp1_yes" >yes</label>
@@ -104,7 +103,7 @@
       </div>
       <input type="submit" value="Submit your proposal" />
     </form> 
-  </div>
+  </main>
 </body>
 </html>
 

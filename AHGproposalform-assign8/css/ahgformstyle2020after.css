@@ -87,12 +87,6 @@ div#propinfo input {
 	margin: 0 .3em;
 }
 
-#formstart {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:200%;
-	font-weight:bold;
-}
-
 #speakerinfo input.reqfield{
 	background:#FF9;
 }
