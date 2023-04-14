@@ -94,3 +94,8 @@ div#propinfo input {
 #propinfo input.reqfield{
 	background:rgb(255, 196, 201);
 }
+
+.submit-button {
+	margin:2em 0;
+	width:70%;
+}
