@@ -88,9 +88,9 @@ div#propinfo input {
 }
 
 #speakerinfo input.reqfield{
-	background:#FF9;
+	background:rgb(255, 196, 201);
 }
 
 #propinfo input.reqfield{
-	background:#FF9;
+	background:rgb(255, 196, 201);
 }
