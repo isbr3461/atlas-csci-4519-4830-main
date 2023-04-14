@@ -18,7 +18,7 @@ div#speakerinfo {
 
 div#speakerinfo label {
 	float:left;
-	width:8.3em;
+	width:12em;
 	text-align:left;
 	display:block;
 	padding-right:.3em;	
@@ -42,20 +42,61 @@ div#speakerinfo input {
 	background-color:#F4F4F4;
 	}
 
+div#propinfo {
+
+	float:left;	
+	width: 100%;
+}
+
+div#propinfo label {
+	float:left;
+	width:12em;
+	text-align:left;
+	display:block;
+	padding-right:.3em;	
+	background:#E0E0DD;
+	clear:right;
+	}
+	
+
+div#propinfo ul li {
+	list-style-type:none;
+	margin-left:-2em;
+	margin-bottom:.4em;
+	}
+
+div#propinfo input {
+
+	margin-left:1.5em;
+	text-align:left;
+	display:block;
+	clear:right;
+	background-color:#F4F4F4;
+	}
+
+#multchoice {
+	float:left;	
+	width: 100%;
+}
+
+#multchoice input, #multchoice span {
+	float:left;
+}
+
+#multchoice span {	
+	margin: 0 .3em;
+}
+
 #formstart {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:200%;
 	font-weight:bold;
 }
 
-.outline3 {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:150%;
-	font-weight:bold;
+#speakerinfo input.reqfield{
+	background:#FF9;
 }
 
-.outline4 {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:120%;
-	font-weight:bold;
+#propinfo input.reqfield{
+	background:#FF9;
 }
